@@ -1,5 +1,5 @@
 # Lines of Code Counter
- This algorithm traverses the filesystem tree using depth first search and finds all files of the given file extension. It will then open each file and count how many lines are in the file. At the end it will return the total number of lines of the given file extension.
+This algorithm traverses the filesystem tree using depth first search and finds all files and directories of the given directory. It will then open each file with the given file extension and count how many lines are in the file. At the end it will return the total number of lines of the given file extension.
 
 # How to run this program
 After downloading the executeable which is named "proj" you will want to run the following command:
