@@ -42,7 +42,7 @@ const char *getFilenameExt(const char *filename){
 
 /*This function uses depth first search traversal over a filesystem tree.
 The function is given a root directory, a target file extension and
-a depth (for the DFS traversal). It will recursively traverse the tree
+a depth (for indentation). It will recursively traverse the tree
 and print out each directory and file within the tree. Once it knows
 it has encountered a file it will check to see if the target file
 extension is the same as the current file extension for said file.
