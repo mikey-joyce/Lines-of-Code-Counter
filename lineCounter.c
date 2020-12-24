@@ -15,7 +15,10 @@ int main(int argc, char* argv[]){
     char *root, *ext;
     //command line arguments
     //if the command line arguments are out of our bounds give error message
-    if (argc != 3)printf("Make sure to enter in the executable, then the directory, then the file extension without the dot!:\n ./executable (directory) (filextension)");
+    if (argc != 3){
+      printf("Make sure to enter in the executable, then the directory, then the file extension without the dot!:\n ./executable (directory) (filextension)");
+      return 0;
+    }
     else{
       //if the command line arguments are in bounds set the root directory and file extension
       root=argv[1];
