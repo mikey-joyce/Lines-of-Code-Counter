@@ -70,7 +70,7 @@ void DFS_lineCount(char *rootDir, char *targetFileExt, int depth){
     lstat(current->d_name,&status);
 
     //is this a directory
-    if(S_ISDIR(status.st_mode)) {
+    if(S_ISDIR(status.st_mode)){
       //We found a directory
       //Ignore the dots
       if(strcmp(".",current->d_name) == 0 || strcmp("..",current->d_name) == 0){
